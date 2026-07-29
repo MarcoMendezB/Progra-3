@@ -20,14 +20,27 @@ public static double calcularPromedio(ArrayList<Estudiante> lista){
         estudiantes.add(new Estudiante("Marco", 19, 95));
         estudiantes.add(new Estudiante("Manolo", 23, 40));
         estudiantes.add(new Estudiante("Marta", 42, 75));
+void main() {
+    ArrayList<Estudiante> estudiantes = new ArrayList<>();
+    estudiantes.add(new Estudiante("Marco", 19, 95));
+    estudiantes.add(new Estudiante("Manolo", 23, 40));
+    estudiantes.add(new Estudiante("Marta", 42, 75));
 
         double promedio = calcularPromedio(estudiantes);
+    double promedio = calcularPromedio(estudiantes);
 
         IO.println("El promedio es "+ promedio);
+    IO.println("El promedio es "+ promedio);
 
         IO.println("\n --- Lista de Estudiantes ---");
         for (Estudiante e : estudiantes){
             IO.println(e);
         }
         IO.println("\n Total de Estudiantes: "+ Estudiante.getTotalEstudiantes());
+    IO.println("\n --- Lista de Estudiantes ---");
+    for (Estudiante e : estudiantes){
+        IO.println(e);
     }
+    IO.println("\n Total de Estudiantes: "+ Estudiante.getTotalEstudiantes());
+
+}
