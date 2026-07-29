@@ -27,6 +27,7 @@ public static double calcularPromedio(ArrayList<Estudiante> lista){
 
         IO.println("\n --- Lista de Estudiantes ---");
         for (Estudiante e : estudiantes){
-            
+            IO.println(e);
         }
+        IO.println("\n Total de Estudiantes: "+ Estudiante.getTotalEstudiantes());
     }
